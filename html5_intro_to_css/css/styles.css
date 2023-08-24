@@ -1,0 +1,50 @@
+html {
+    background-color: #BF5B04;
+}
+
+body {
+    background-color: #BD8F6B;
+    width: 960px;
+    margin: 20px auto;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+}
+
+nav {
+    background-color: #E4E2D6;
+    padding: 20px;
+}
+
+nav a {
+    color: #8C4F7C;
+    margin: 0 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    width: 35%;
+}
+
+footer {
+    background-color: #E4E2D6;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1, h2, h3 {
+    color: #694249;
+}
