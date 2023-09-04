@@ -83,6 +83,10 @@ aside {
     width: 60%;
 }
 
+#second_img_resize {
+    width: 60%
+}
+
 #lower_area {
     display: flex;
 }
