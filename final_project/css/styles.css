@@ -1,0 +1,146 @@
+body {
+    background-color: #1A3D3F;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+}
+
+h1, h2, h3 {
+    color: #2C1F0D;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #2C1F0D;
+    text-decoration-thickness: 25%;
+}
+
+#container {
+    background-color: #8C7764;
+}
+
+nav {
+    background-color: #BF7636;
+    padding: 2px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid #730E0E;
+}
+
+nav li a  {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #8C7764;
+    color: #2C1F0D;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: #2C1F0D;
+    color: #8C7764;
+    border-color: #1A3D3F;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #BF7636;
+    color: #2C1F0D;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border: 4px solid #730E0E;
+}
+
+tr, td {
+    border: 2px solid #BF7636;
+    padding: 10px;
+    margin: 10px;
+}
+
+video, audio {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+}
+
+@media (min-width: 786px) {
+    video, audio {
+        width: 80%;
+    }
+
+    img {
+        width: 65%;
+    }
+
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 170px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid #730E0E;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #BF7636;
+        border-radius: 10px;
+    }
+
+    section  {
+        width: 60%;
+    }
+
+    aside  {
+        width: 40%;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid #730E0E;
+    }
+
+    nav li a {
+        width: 160px;
+    }
+}
